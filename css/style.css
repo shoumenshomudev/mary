@@ -22,6 +22,11 @@ a{
 
 .headerPart{
     padding: 50px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 
 }
 
@@ -36,7 +41,7 @@ a{
     justify-content: space-between;
 }
 
-.btn a{
+/* .btn a{
     padding: 18px 35px;
     border-radius: 5px;
     background: #FD6E0A;
@@ -44,7 +49,7 @@ a{
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF; 
-}
+} */
 
 .menu ul li a{
      font-family: "Open Sans", sans-serif;
@@ -55,6 +60,7 @@ a{
 .menuBtnFlex{
     display: flex;
     gap: 51px;
+    align-items: center;
 }
 
 
@@ -63,11 +69,13 @@ a{
 
 /* Banner Part CSS Start Here */
 .bannerPart{
-    padding-top: 161px;
+    padding-top: 230px;
     background-image: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 0;
 }
 
 .bannerContent h3{
@@ -95,10 +103,61 @@ a{
 }
 .bannerFlex{
     display: flex;
-    gap: 165px;
+    gap: 265px;
+    align-items: center;
 
 }
+.bannerBtn{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
 
+.btn{
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background: #FD6E0A;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+
+}
+.btn .gap{
+    margin-right: 10px;
+}
+
+.btn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+}
+
+.btnn{
+     padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #FD6E0A;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+}
+
+.btnn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+}
 
 /* Banner Part CSS End Here */
 
