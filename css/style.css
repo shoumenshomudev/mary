@@ -1,44 +1,43 @@
 /* All Common CSS Start Here */
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-ul,ol{
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.container{
-    width: 1140px;
-    margin: 0 auto;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 /* All Common CSS end Here */
 
-
 /* Hedaer Part CSS Start Here */
 
-.headerPart{
-    padding: 50px 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-
+.headerPart {
+  padding: 50px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-.menu ul{
-    display: flex;
-    gap: 71px;
+.menu ul {
+  display: flex;
+  gap: 71px;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* .btn a{
@@ -51,119 +50,223 @@ a{
     color: #FFFFFF; 
 } */
 
-.menu ul li a{
-     font-family: "Open Sans", sans-serif;
-     font-weight: 400;
-     font-size: 20px;
-     color: #474747;
+.menu ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #474747;
 }
 
-.menu ul li a:hover{
-    color: #FD6E0A;
-    transition: .4s;
+.menu ul li a:hover {
+  color: #fd6e0a;
+  transition: 0.4s;
 }
 
-.menuBtnFlex{
-    display: flex;
-    gap: 51px;
-    align-items: center;
+.menuBtnFlex {
+  display: flex;
+  gap: 51px;
+  align-items: center;
 }
-
 
 /* Hedaer Part CSS End Here */
 
-
 /* Banner Part CSS Start Here */
-.bannerPart{
-    padding-top: 230px;
-    background-image: url(../images/banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
+#bannerPart {
+  padding-top: 230px;
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 
-.bannerContent h3{
-    font-family: "Open Sans", sans-serif;
-     font-weight: 600;
-     font-size: 45px;
-     color: #474747;
+.bannerContent h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
 }
-.bannerContent h1{
-    font-family: "Open Sans", sans-serif;
-     font-weight: 700;
-     font-size: 85px;
-     color: #181818;
-     margin-top: 5px;
-     margin-bottom: 20px;
+.bannerContent h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
-.bannerContent p{
-    font-family: "Open Sans", sans-serif;
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 30px;
-     color: #757575;
-     width: 585px;
-    
+.bannerContent p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  width: 585px;
 }
-.bannerFlex{
-    display: flex;
-    gap: 265px;
-    align-items: center;
-
+.bannerFlex {
+  display: flex;
+  gap: 265px;
+  align-items: center;
 }
-.bannerBtn{
-    margin-top: 30px;
-    display: flex;
-    gap: 30px;
+.bannerBtn {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
 }
 
-.btn{
-    padding-top: 19px;
-    padding-bottom: 18px;
-    padding-left: 17px;
-    padding-right: 17px;
-    background: #FD6E0A;
-    display: inline-block;
-    border-radius: 5px;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    border: 1px solid #FD6E0A;
-
+.btn {
+  padding-top: 19px;
+  padding-bottom: 18px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background: #fd6e0a;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
 }
-.btn .gap{
-    margin-right: 10px;
-}
-
-.btn:hover{
-    border: 1px solid #FD6E0A;
-    background: transparent;
-    color: #FD6E0A;
+.btn .gap {
+  margin-right: 10px;
 }
 
-.btnn{
-     padding-top: 19px;
-    padding-bottom: 18px;
-    padding-left: 35px;
-    padding-right: 35px;
-    background: #FD6E0A;
-    display: inline-block;
-    border-radius: 5px;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    border: 1px solid #FD6E0A;
+.btn:hover {
+  border: 1px solid #fd6e0a;
+  background: transparent;
+  color: #fd6e0a;
+  transition: 0.4s;
 }
 
-.btnn:hover{
-    border: 1px solid #FD6E0A;
-    background: transparent;
-    color: #FD6E0A;
+.btnn {
+  padding-top: 19px;
+  padding-bottom: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #fd6e0a;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
+}
+
+.btnn:hover {
+  border: 1px solid #fd6e0a;
+  background: transparent;
+  color: #fd6e0a;
+  transition: 0.4s;
 }
 
 /* Banner Part CSS End Here */
+
+/* About Part Css Start Here */
+#aboutPart {
+  margin: 130px 0;
+}
+
+.about {
+  padding: 131px 157px;
+  background: #fff8f3;
+}
+.aboutContent {
+  text-align: center;
+}
+.aboutContent h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: 20px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.aboutContent p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: 18px;
+  line-height: 30px;
+  color: #757575;
+  width: 725px;
+  margin: 0 auto;
+}
+
+.aboutBio {
+  margin-top: 30px;
+  display: flex;
+}
+.aboutBio p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+.aboutBio h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: 20px;
+  line-height: 30px;
+  color: #474747;
+}
+
+.common {
+  width: 118px;
+}
+/* About Part Css End Here */
+
+/* What i do Part Css Start Here */
+#whatIDoPart {
+ margin-top: 130px;
+ margin-bottom: 130px;
+}
+.whatidohead {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.whatidohead h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: 20px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.whatidohead p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: 18px;
+  line-height: 30px;
+  color: #757575;
+  width: 810px;
+  margin: 0 auto;
+}
+.cardsection{
+    display: flex;
+    gap: 24px;
+}
+.one {
+  padding: 31px;
+  background-color: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+}
+.one h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: 20px;
+  color: #181818;
+}
+.one p{
+    font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+/* What i do Part Css End Here */
+
 
